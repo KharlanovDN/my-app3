@@ -1,43 +1,53 @@
 import React from "react";
 import s from "./ProfileInfo.module.css";
 
-class ProfileStatus extends React.Component{
+class ProfileStatus extends React.Component {
 
     state = {
         editMode: false,
-        title: 'Yo',
+        status: this.props.status
     }
-
-    // activateEditMode = () => {
-    //     debugger;
-    //     this.state.editMode = true;
-    // }
 
     activateEditMode = () => {
-        // console.log(this.state.editMode);
-       this.setState(
-           {editMode: true}
-       )
-        // console.log(this.state.editMode);
+        this.setState({
+            editMode: true
+        });
     }
     deactivateEditMode = () => {
-        this.setState({editMode: false});
+        this.setState({
+            editMode: false
+        });
+        this.props.updateStatus(this.state.status);
     }
 
-    render(){
+    onStatusChange = (e) => {
+        this.setState({
+            status: e.currentTarget.value
+        })
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        if (prevProps.status !== this.props.status)
+            this.setState({status: this.props.status});
+    };
+
+    render() {
+        console.log('render')
         return (
             <div>
                 {
                     !this.state.editMode &&
                     <div>
-                        <span onDoubleClick={this.activateEditMode}>{this.props.status}</span>
+                        <span onDoubleClick={this.activateEditMode}>
+                            {this.props.status || '----------'}</span>
                     </div>
                 }
 
                 {
                     this.state.editMode &&
                     <div>
-                        <input autoFocus={true} onBlur={this.deactivateEditMode} value={this.props.status}></input>
+                        <input onChange={this.onStatusChange} autoFocus={true} onBlur={this.deactivateEditMode}
+                               value={this.state.status}></input>
                     </div>
                 }
             </div>

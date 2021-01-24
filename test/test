@@ -45,15 +45,17 @@
 
 
 //4 Типы данных
-const isProgrammer = true;
-const name = 'Den';
-const age = 36;
-let x;
-console.log(typeof isProgrammer);
-console.log(typeof name);
-console.log(typeof age);
-console.log(typeof x);
-console.log(null);
-
+// const isProgrammer = true;
+// const name = 'Den';
+// const age = 36;
+// let x;
+// console.log(typeof isProgrammer);
+// console.log(typeof name);
+// console.log(typeof age);
+// console.log(typeof x);
+// console.log(null);
+//
 
 //5.Приоритет операторов https://youtu.be/Bluxbh9CaQ0?t=3810
+// const h1 = document.querySelector('hello')
+// console.dir(heading.id)
