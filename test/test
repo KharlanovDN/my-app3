@@ -59,3 +59,20 @@
 //5.Приоритет операторов https://youtu.be/Bluxbh9CaQ0?t=3810
 // const h1 = document.querySelector('hello')
 // console.dir(heading.id)
+
+console.log('Start');
+console.log('Start2');
+
+function timeout5s(){
+    console.log('Timeout after 5s')
+}
+
+setTimeout(function(){
+    console.log('Timeout after 2s')
+}, 2000);
+
+console.log('End')
+
+setTimeout(timeout5s, 5000);
+
+//EventLoop

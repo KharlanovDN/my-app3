@@ -6,14 +6,20 @@ import * as serviceWorker from './serviceWorker';
 import App from "./App";
 import store from "./redux/redux-store";
 import {Provider} from "react-redux";
+import SamuraiJSApp from "./App";
 
 
-    ReactDOM.render(
-        <BrowserRouter>
-            <Provider store={store}>
-                <App />
-            </Provider>
-        </BrowserRouter>,
+// let h1 = document.createElement('h1');
+// h1.innerHTML = 'Hello';
+// document.querySelector('body').appendChild(h1);
+
+// React.createElement('h1');
+
+// setInterval(() => {
+//     store.dispatch({type: 'Fake'});
+// }, 2000);
+
+    ReactDOM.render(<SamuraiJSApp/>,
         document.getElementById('root')
     )
 
