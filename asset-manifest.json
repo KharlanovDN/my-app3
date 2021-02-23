@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/my-app3/static/css/main.ad725ea2.chunk.css",
-    "main.js": "/my-app3/static/js/main.75fcbf2a.chunk.js",
-    "main.js.map": "/my-app3/static/js/main.75fcbf2a.chunk.js.map",
-    "runtime-main.js": "/my-app3/static/js/runtime-main.e413a61b.js",
-    "runtime-main.js.map": "/my-app3/static/js/runtime-main.e413a61b.js.map",
-    "static/js/2.f8b999a6.chunk.js": "/my-app3/static/js/2.f8b999a6.chunk.js",
-    "static/js/2.f8b999a6.chunk.js.map": "/my-app3/static/js/2.f8b999a6.chunk.js.map",
+    "main.js": "/my-app3/static/js/main.7ec7ac7b.chunk.js",
+    "main.js.map": "/my-app3/static/js/main.7ec7ac7b.chunk.js.map",
+    "runtime-main.js": "/my-app3/static/js/runtime-main.c5f9a7e9.js",
+    "runtime-main.js.map": "/my-app3/static/js/runtime-main.c5f9a7e9.js.map",
+    "static/js/2.43b4842f.chunk.js": "/my-app3/static/js/2.43b4842f.chunk.js",
+    "static/js/2.43b4842f.chunk.js.map": "/my-app3/static/js/2.43b4842f.chunk.js.map",
     "static/css/3.c54777d2.chunk.css": "/my-app3/static/css/3.c54777d2.chunk.css",
     "static/js/3.1992734f.chunk.js": "/my-app3/static/js/3.1992734f.chunk.js",
     "static/js/3.1992734f.chunk.js.map": "/my-app3/static/js/3.1992734f.chunk.js.map",
     "static/css/4.1e33f662.chunk.css": "/my-app3/static/css/4.1e33f662.chunk.css",
-    "static/js/4.7e42e6fb.chunk.js": "/my-app3/static/js/4.7e42e6fb.chunk.js",
-    "static/js/4.7e42e6fb.chunk.js.map": "/my-app3/static/js/4.7e42e6fb.chunk.js.map",
+    "static/js/4.a0d6854e.chunk.js": "/my-app3/static/js/4.a0d6854e.chunk.js",
+    "static/js/4.a0d6854e.chunk.js.map": "/my-app3/static/js/4.a0d6854e.chunk.js.map",
     "index.html": "/my-app3/index.html",
     "static/css/3.c54777d2.chunk.css.map": "/my-app3/static/css/3.c54777d2.chunk.css.map",
     "static/css/4.1e33f662.chunk.css.map": "/my-app3/static/css/4.1e33f662.chunk.css.map",
     "static/css/main.ad725ea2.chunk.css.map": "/my-app3/static/css/main.ad725ea2.chunk.css.map",
-    "static/js/2.f8b999a6.chunk.js.LICENSE.txt": "/my-app3/static/js/2.f8b999a6.chunk.js.LICENSE.txt",
+    "static/js/2.43b4842f.chunk.js.LICENSE.txt": "/my-app3/static/js/2.43b4842f.chunk.js.LICENSE.txt",
     "static/media/123.0927e6e7.jpg": "/my-app3/static/media/123.0927e6e7.jpg",
     "static/media/ava.jpg": "/my-app3/static/media/ava.6ec58bca.jpg",
     "static/media/logo_ract.9b933d39.jpg": "/my-app3/static/media/logo_ract.9b933d39.jpg",
     "static/media/preloader.10625dac.gif": "/my-app3/static/media/preloader.10625dac.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.e413a61b.js",
-    "static/js/2.f8b999a6.chunk.js",
+    "static/js/runtime-main.c5f9a7e9.js",
+    "static/js/2.43b4842f.chunk.js",
     "static/css/main.ad725ea2.chunk.css",
-    "static/js/main.75fcbf2a.chunk.js"
+    "static/js/main.7ec7ac7b.chunk.js"
   ]
 }
